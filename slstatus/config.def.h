@@ -63,11 +63,11 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function  format	    argument */
-	{ disk_perc, "[%s%% ",    "/"},
+	/*{ disk_perc, "[%s%% ",    "/"},
 	{ disk_used, "%s] ",	    "/"},
 	{ disk_perc, "[%s%% ",	    "/home"},
 	{ disk_used, "%s] ",	    "/home"}, 
-	{ ram_perc,  "[%s%% ",	    NULL},
-	{ ram_used,  "%s] ",	    NULL},
-	{ datetime,  "%s",	    " %a %d %b | %H:%M "},
+	{ ram_perc,  "[%s%% ",	    NULL},*/
+	{ ram_free,  " FREE: %s ",	    NULL},
+	{ datetime,  "%s",	    "| %a %d %b %H:%M "},
 };
